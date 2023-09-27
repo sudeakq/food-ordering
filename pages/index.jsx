@@ -1,12 +1,13 @@
 import Head from "next/head";
 import Home from "./home";
+import Header from "@/components/layout/header";
 
 export default function Index() {
   return (
     <div className="">
       <Head>
         <title>Create Next App</title>
-        €
+
         <link rel="icon" href="/favicon.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
@@ -15,8 +16,8 @@ export default function Index() {
           crossOrigin="true"
         />
 
-      </Head>€
-      <Home />
+      </Head>
+      <Header />
     </div>
   );
 }
