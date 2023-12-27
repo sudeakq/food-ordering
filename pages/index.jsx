@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Home from "./home";
 import Header from "@/components/layout/header";
+import Carousel from "@/components/Carousel";
 
 export default function Index() {
   return (
@@ -18,6 +19,8 @@ export default function Index() {
 
       </Head>
       <Header />
+      <Carousel />
+
     </div>
   );
 }

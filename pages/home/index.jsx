@@ -1,9 +1,12 @@
 import React from "react";
+import Carousel from "../../components/Carousel";
 
-const Home = () => {
+const Index = () => {
     return (
-        <div ></div>
+        <div className="relative">
+            <Carousel />
+        </div>
     );
 };
 
-export default Home;
+export default Index;
