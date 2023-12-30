@@ -22,6 +22,7 @@ const Carousel = () => {
             <div className="w-3 h-3 border bg-white rounded-full mt-10"></div>
         ),
     };
+
     return (
         <div className="h-screen w-full container mx-auto -mt-[88px]">
             <div className="absolute top-0 left-0 w-full h-full">
@@ -63,5 +64,4 @@ const Carousel = () => {
         </div>
     );
 };
-
 export default Carousel;
